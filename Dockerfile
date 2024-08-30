@@ -1,4 +1,4 @@
-FROM node:20 as dist
+FROM node:20 AS dist
 
 WORKDIR /app
 COPY package*.json ./
